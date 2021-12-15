@@ -1,0 +1,854 @@
+* {
+    font-family: 'Rubik Light', 'sans-serif';
+}
+
+main {
+    padding-bottom: 20px;
+}
+
+body {
+    background-image: url(../img/monitor.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.dark {
+    background-color: black;
+}
+
+#full {
+    padding: 5px;
+    margin: 5px;
+    padding-left: 1%;
+}
+
+
+/* ------------------------------------------ */
+
+
+/* Home */
+
+.sub-home {
+    font-family: 'Rubik Medium', sans-serif;
+    color: white;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-left: 15px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.tit-home {
+    font-family: 'Rubik Regular', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    text-transform: capitalize;
+}
+
+.texto-home {
+    font-family: 'Rubik Light', sans-serif;
+    font-size: 1rem;
+    color: white;
+    padding-top: 5px;
+}
+
+.img-home {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    width: 75%;
+    border-radius: 20px;
+}
+
+
+/* ------------------------------------------ */
+
+
+/* Models */
+
+.sub-mod {
+    font-family: 'Rubik Medium', sans-serif;
+    color: white;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-left: 15px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.tit-mod {
+    font-family: 'Rubik Regular', sans-serif;
+    font-size: 1.8rem;
+    color: white;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    text-transform: capitalize;
+}
+
+.texto-mod {
+    font-family: 'Rubik Light', sans-serif;
+    font-size: 1rem;
+    color: white;
+    padding-top: 5px;
+}
+
+.img-model {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    width: 85%;
+    border-radius: 20px;
+}
+
+#titulo {
+    margin-left: 20px;
+    font-family: 'Rubik Light', sans-serif;
+    color: white;
+}
+
+.modal-sub {
+    padding-top: 5px;
+    padding-bottom: 0%;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    font-family: 'Rubik Regular', sans-serif;
+    font-size: 1.2rem;
+}
+
+.modal-tit {
+    padding-top: 0%;
+    margin-top: 0%;
+    font-family: 'Rubik Medium', sans-serif;
+    font-size: 1.4rem;
+}
+
+
+/* ------------------------------------------ */
+
+
+/* Solar Panels */
+
+.img-solar-arriba {
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+}
+
+.img-solar-abajo {
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+}
+
+.sub-solar {
+    font-size: 2rem;
+    margin-left: 10px;
+    margin-top: 0%;
+    margin-bottom: 10px;
+    font-family: 'Rubik Medium', sans-serif;
+}
+
+.tit-solar {
+    font-size: 1.5rem;
+    margin-left: 10px;
+    padding-top: 20px;
+    margin-bottom: 0%;
+    font-family: 'Rubik Regular', sans-serif;
+}
+
+.texto-solar {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: auto;
+    font-size: 1rem;
+    font-family: 'Rubik Light', sans-serif;
+}
+
+
+/* ------------------------------------------ */
+
+
+/* Contact Us */
+
+#titulo {
+    margin-top: 15px;
+}
+
+#teb {
+    resize: none;
+}
+
+.sub-contact {
+    width: auto;
+    max-width: 70%;
+    font-size: 1rem;
+    margin-left: 25px;
+    color: white;
+}
+
+.contact-form {
+    max-width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.contact-form-text {
+    width: 90%;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contact-form-btn {
+    border: 0;
+    color: #ffff;
+    background: #34495e;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.telefono {
+    font-family: 'Rubik', 'sans-serif';
+    font-size: 1rem;
+    color: white;
+}
+
+
+/* ------------------------------------------ */
+
+
+/* ------------------------------------------ */
+
+
+/* Footer */
+
+.iconos {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#tesla-footer {
+    text-align: left;
+}
+
+#iconos-footer {
+    text-align: right;
+}
+
+
+/* ------------------------------------------ */
+
+
+/* MediaQueries */
+
+@media(max-width:576px) {
+    /* Home */
+    .sub-home {
+        text-align: center;
+    }
+    .tit-home {
+        text-align: center;
+    }
+    .texto-home {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .img-home {
+        width: 80%;
+    }
+    /* Models */
+    .sub-mod {
+        text-align: center;
+    }
+    .tit-mod {
+        text-align: center;
+    }
+    .texto-mod {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .img-model {
+        width: 80%;
+    }
+    /* Ventana Modal */
+    .modal-img {
+        padding-top: 10px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .modal-sub {
+        padding-top: 5px;
+        padding-bottom: 0%;
+        margin-top: 10px;
+        margin-bottom: 0%;
+        font-family: 'Rubik Regular';
+    }
+    .modal-tit {
+        padding-top: 0%;
+        margin-top: 0%;
+        font-family: 'Rubik Medium';
+    }
+    .modal-tex {
+        font-family: 'Rubik Light';
+        font-size: 1rem;
+        padding-bottom: 0%;
+        margin-bottom: auto;
+    }
+    /* Solar Panels */
+    .img-solar-arriba {
+        border-radius: 15px;
+        width: auto;
+        height: auto;
+        margin-left: 10px;
+    }
+    .img-solar-abajo {
+        border-radius: 15px;
+        width: auto;
+        height: auto;
+    }
+    .sub-solar {
+        font-size: 1.4rem;
+        margin-left: 10px;
+        margin-top: 0%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .tit-solar {
+        font-size: 1rem;
+        margin-left: 10px;
+        padding-top: 20px;
+        margin-bottom: 0%;
+        text-align: center;
+    }
+    .texto-solar {
+        font-size: 0.9rem;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: auto;
+        text-align: center;
+    }
+    /* Contact us */
+    .contact-form-btn {
+        margin-right: 15px;
+    }
+    .telefono {
+        width: auto;
+        font-size: 0.7rem;
+    }
+    .img-telefono {
+        width: auto;
+        height: auto;
+        max-width: 70%;
+    }
+    #img-contact {
+        width: auto;
+        height: auto;
+        max-width: 90%;
+    }
+    /* Footer */
+    #tesla-footer {
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+    #iconos-footer {
+        text-align: center;
+        padding-left: 20px;
+    }
+}
+
+@media(min-width:576px) {
+    /* Home */
+    .sub-home {
+        text-align: center;
+    }
+    .tit-home {
+        text-align: center;
+    }
+    .texto-home {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .img-home {
+        width: 70%;
+    }
+    /* Models */
+    .sub-mod {
+        text-align: center;
+    }
+    .tit-mod {
+        text-align: center;
+    }
+    .texto-mod {
+        text-align: center;
+        font-size: 1rem;
+    }
+    .img-model {
+        width: 80%;
+    }
+    .sub-mod {
+        text-align: center;
+    }
+    .tit-mod {
+        text-align: center;
+    }
+    .modal-tex {
+        font-family: 'Rubik Light';
+        font-size: 1.2rem;
+        padding-bottom: 0%;
+        margin-bottom: auto;
+    }
+    .modal-img {
+        padding-top: 10px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .modal-sub {
+        padding-top: 5px;
+        padding-bottom: 0%;
+        margin-top: 10px;
+        margin-bottom: 0%;
+        font-family: 'Rubik Regular';
+    }
+    .modal-tit {
+        padding-top: 0%;
+        margin-top: 0%;
+        font-family: 'Rubik Medium';
+    }
+    /* Solar Panels */
+    .img-solar-arriba {
+        border-radius: 15px;
+        width: auto;
+        height: auto;
+        margin-left: 10px;
+    }
+    .img-solar-abajo {
+        border-radius: 15px;
+        width: auto;
+        height: auto;
+    }
+    .sub-solar {
+        font-size: 1.8rem;
+        margin-left: 10px;
+        margin-top: 0%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .tit-solar {
+        font-size: 1.4rem;
+        margin-left: 10px;
+        padding-top: 20px;
+        margin-bottom: 0%;
+        text-align: center;
+    }
+    .texto-solar {
+        margin-top: 10px;
+        margin-left: 10px;
+        width: auto;
+        text-align: center;
+    }
+    /* Solar Panels */
+    .img-solar-arriba {
+        border-radius: 15px;
+        width: auto;
+        height: auto;
+        margin-left: 10px;
+    }
+    .img-solar-abajo {
+        border-radius: 15px;
+        width: auto;
+        height: auto;
+    }
+    .sub-solar {
+        font-size: 1.8rem;
+        margin-left: 10px;
+        margin-top: 0%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .tit-solar {
+        font-size: 1.4rem;
+        margin-left: 10px;
+        padding-top: 20px;
+        margin-bottom: 0%;
+        text-align: center;
+    }
+    .texto-solar {
+        margin-top: 10px;
+        margin-left: 10px;
+        width: auto;
+        text-align: center;
+    }
+    /* Contact us */
+    #img-contact {
+        width: 450px;
+        height: 200px;
+    }
+    .telefono {
+        width: auto;
+        font-size: 0.8rem;
+    }
+    .img-telefono {
+        max-width: 40%;
+    }
+    /* Footer */
+    #tesla-footer {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    #iconos-footer {
+        text-align: center;
+    }
+}
+
+@media(min-width:768px) {
+    /* Home */
+    .texto {
+        font-size: 1.3rem;
+    }
+    .img-home {
+        width: 55%;
+    }
+    .sub-home {
+        text-align: center;
+    }
+    .tit-home {
+        text-align: center;
+    }
+    .texto-home {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    /* Models */
+    .img-model {
+        width: 65%;
+    }
+    .sub-mod {
+        text-align: center;
+    }
+    .tit-mod {
+        text-align: center;
+    }
+    .texto-mod {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .modal-tex {
+        font-family: 'Rubik Light';
+        font-size: 1.2rem;
+        padding-bottom: 0%;
+        margin-bottom: auto;
+    }
+    .modal-img {
+        padding-top: 10px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .modal-sub {
+        padding-top: 5px;
+        padding-bottom: 0%;
+        margin-top: 10px;
+        margin-bottom: 0%;
+        font-family: 'Rubik Regular';
+    }
+    .modal-tit {
+        padding-top: 0%;
+        margin-top: 0%;
+        font-family: 'Rubik Medium';
+    }
+    /* Solar Panels */
+    .img-solar-arriba {
+        border-radius: 15px;
+        width: auto;
+        height: auto;
+        margin-left: 10px;
+    }
+    .img-solar-abajo {
+        border-radius: 15px;
+        width: auto;
+        height: auto;
+    }
+    .sub-solar {
+        font-size: 1.8rem;
+        margin-left: 10px;
+        margin-top: 0%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .tit-solar {
+        font-size: 1.4rem;
+        margin-left: 10px;
+        padding-top: 20px;
+        margin-bottom: 0%;
+        text-align: center;
+    }
+    .texto-solar {
+        margin-top: 10px;
+        margin-left: 10px;
+        width: auto;
+        text-align: center;
+    }
+    /* Contact us */
+    #img-contact {
+        width: 600px;
+        height: 200px;
+    }
+    .telefono {
+        width: auto;
+        font-size: 1rem;
+    }
+    .img-telefono {
+        max-width: 30%;
+    }
+    /* Footer */
+    #tesla-footer {
+        text-align: center;
+    }
+    #iconos-footer {
+        text-align: center;
+    }
+}
+
+@media (min-width:992px) {
+    /* Home */
+    .img-home {
+        width: 80%;
+    }
+    .texto-home {
+        font-size: 1rem;
+        text-align: left;
+    }
+    .sub-home {
+        padding-top: 10px;
+        text-align: left;
+    }
+    .tit-home {
+        padding-bottom: 5px;
+        text-align: left;
+    }
+    /* Models */
+    .img-model {
+        width: 90%;
+    }
+    .sub-mod {
+        text-align: left;
+    }
+    .tit-mod {
+        text-align: left;
+    }
+    .texto-mod {
+        text-align: left;
+        font-size: 1.1rem;
+    }
+    .modal-img {
+        padding-top: 10px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .modal-sub {
+        padding-top: 10px;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+        font-family: 'Rubik Regular';
+    }
+    .modal-tit {
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-top: 0%;
+        margin-bottom: 5px;
+        font-family: 'Rubik Medium';
+    }
+    .modal-tex {
+        font-family: 'Rubik Light';
+        font-size: 1.1rem;
+        padding-bottom: 10px;
+    }
+    /* Solar Panels */
+    .img-solar-arriba {
+        border-radius: 15px;
+        width: auto;
+        height: auto;
+        margin-left: 10px;
+    }
+    .img-solar-abajo {
+        border-radius: 15px;
+        width: auto;
+        height: auto;
+    }
+    .sub-solar {
+        font-size: 1.8rem;
+        margin-left: 10px;
+        margin-top: 0%;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+    .tit-solar {
+        font-size: 1.4rem;
+        margin-left: 10px;
+        padding-top: 20px;
+        margin-bottom: 0%;
+        text-align: left;
+    }
+    .texto-solar {
+        margin-top: 10px;
+        margin-left: 10px;
+        width: auto;
+        max-width: 400px;
+        text-align: left;
+    }
+    /* Contact us */
+    #img-contact {
+        width: 350px;
+        height: 400px;
+    }
+    .telefono {
+        width: auto;
+        font-size: 1rem;
+    }
+    .img-telefono {
+        max-width: 50%;
+    }
+    /* Footer */
+    #tesla-footer {
+        text-align: left;
+    }
+    #iconos-footer {
+        text-align: right;
+    }
+}
+
+@media (min-width:1200px) {
+    /* Home */
+    .img-home {
+        width: 75%;
+    }
+    .sub-home {
+        padding-top: 30px;
+    }
+    .tit-home {
+        padding-bottom: 10px;
+    }
+    .texto-home {
+        font-size: 1.2rem;
+        text-align: left;
+    }
+    /* Models */
+    .img-model {
+        width: 90%;
+    }
+    .sub-mod {
+        text-align: left;
+        font-size: 1.2rem;
+        padding-top: 15px;
+    }
+    .tit-mod {
+        text-align: left;
+        padding-bottom: 10px;
+    }
+    .texto-mod {
+        font-size: 1.2rem;
+    }
+    .modal-img {
+        padding-top: 10px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .modal-sub {
+        padding-top: 10px;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+        font-family: 'Rubik Regular';
+    }
+    .modal-tit {
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-bottom: 5px;
+        margin-top: 0%;
+        font-family: 'Rubik Medium';
+    }
+    .modal-tex {
+        font-family: 'Rubik Light';
+        font-size: 1.1rem;
+        padding-bottom: 10px;
+    }
+    /* Solar Panels */
+    .img-solar-arriba {
+        border-radius: 15px;
+        width: auto;
+        height: auto;
+        margin-left: 10px;
+    }
+    .img-solar-abajo {
+        border-radius: 15px;
+        width: auto;
+        height: auto;
+    }
+    .sub-solar {
+        font-size: 1.8rem;
+        margin-left: 10px;
+        margin-top: 0%;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+    .tit-solar {
+        font-size: 1.4rem;
+        margin-left: 10px;
+        padding-top: 20px;
+        margin-bottom: 0%;
+        text-align: left;
+    }
+    .texto-solar {
+        margin-top: 10px;
+        margin-left: 10px;
+        width: auto;
+        max-width: 500px;
+        text-align: left;
+        font-size: 1.3rem;
+    }
+    /* Contact us */
+    #titulo {
+        padding-left: 0px;
+    }
+    .sub-contact {
+        padding-left: 0px;
+        margin-left: 25px;
+        width: 500px;
+    }
+    #img-contact {
+        width: 450px;
+        height: 400px;
+    }
+    .telefono {
+        width: auto;
+        font-size: 1rem;
+    }
+    .img-telefono {
+        max-width: 40%;
+    }
+    /* Footer */
+    #tesla-footer {
+        text-align: left;
+    }
+    #iconos-footer {
+        text-align: right;
+    }
+}

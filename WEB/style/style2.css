@@ -1,0 +1,91 @@
+/* Registro */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #344a72;
+}
+
+a {
+    text-decoration: none;
+}
+
+.registro-tit {
+    color: white;
+}
+
+.container {
+    max-width: 350px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-wrap {
+    background-color: transparent;
+}
+
+.form-wrap h1,
+.form-wrap p {
+    line-height: 1.8em;
+    text-align: center;
+}
+
+.form-wrap,
+.form-group {
+    margin: 15px;
+}
+
+.form-wrap,
+.form-group label {
+    display: block;
+}
+
+.form-group label {
+    color: #6e6666;
+    margin-bottom: 5px;
+}
+
+.form-wrap,
+.form-group input {
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.form-wrap button {
+    padding: 10px 20px;
+    display: block;
+    width: 100%;
+    background-color: #49c1a2;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.form-wrap button:hover {
+    background-color: #37a08e;
+}
+
+.form-wrap .btn-text {
+    margin-top: 15px;
+    line-height: 2em;
+    font-size: 0.8em;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    color: #49c1a2;
+}
+
+.traslado {
+    position: absolute;
+    transform: translateX(50%);
+}
